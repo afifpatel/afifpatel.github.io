@@ -33,11 +33,16 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/dp.jpg) no-repeat top center;
-   background-size: cover !important;
+   background: #161415 url(../images/dp5.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   /* background-size: cover !important;
 	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
+    */
+  text-align: center;
+  overflow: hidden; 
 }
 
 /* vertically center banner section */
